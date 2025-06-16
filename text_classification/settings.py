@@ -25,8 +25,8 @@ SECRET_KEY = 'django-insecure-9%bcux@qb!w$f2kldu)7)q95rmhhyts$9x&y=igcbaztt@n4z-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://klassifikatsiya.mubiyn.uz']
 
 # Application definition
 
